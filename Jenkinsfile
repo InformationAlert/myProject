@@ -1,8 +1,5 @@
 pipeline {
   agent { label 'node_1' }
-  tools {
-    maven "mvn3.3.8"
-  }
   stages {
     stage('checkout') {
       steps {
